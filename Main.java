@@ -110,7 +110,9 @@ public class Main {
                     admin.displayProfile();
                     break;
                 case 2:
+                   System.out.println("Enter The Field You Want To Change[UserName,Role,Working Hours,DOB]");
                    String field =scanner.nextLine().trim().toLowerCase();
+                   System.out.println("Enter The New Value: ");
                    String newValue = scanner.nextLine().trim();
                     admin.updateProfile(field, newValue);
                     break;
