@@ -19,12 +19,16 @@ public class AllExceptionsMade {
         }
     }
     
-    public static class ProductNotFoundException extends Exception {
-        public ProductNotFoundException(String message) {
+    public static class ProductNotFound extends Exception {
+        public ProductNotFound(String message) {
             super(message);
         }
     }
-     
+    public static class CategoryNotFound extends Exception {
+        public CategoryNotFound(String message) {
+            super(message);
+        }
+    }
     
 
 
